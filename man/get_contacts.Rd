@@ -20,7 +20,7 @@ get_contacts(apikey = "demo",
 
 \item{list_memberships}{Indicate whether current list memberships should be fetched}
 
-\item{max_iter}{The API is limited to 250 responses, use \code{max_iter} to limit how many pages of data will get returned}
+\item{max_iter}{The API is limited to 100 responses, use \code{max_iter} to limit how many pages of data will get returned}
 
 \item{max_properties}{Avoid URLs that are too long, limit the number of properties returned, if required.}
 }
