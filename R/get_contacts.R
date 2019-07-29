@@ -5,7 +5,7 @@
 #' @param property_history Whether version history for properties should be returned
 #' @param form_submission_mode Which form submissions should be fetched
 #' @param list_memberships Indicate whether current list memberships should be fetched
-#' @param max_iter The API is limited to 250 responses, use `max_iter` to limit how many pages of data will get returned
+#' @param max_iter The API is limited to 100 responses, use `max_iter` to limit how many pages of data will get returned
 #' @param max_properties Avoid URLs that are too long, limit the number of properties returned, if required.
 #'
 #' @return List with contact data
